@@ -1,0 +1,159 @@
+.category {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+
+/*----------------------------------------顶部通栏*/
+.topBar {
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.topBar .back-icon {
+    position: absolute;
+}
+
+.topBar .back-icon span {
+    background: url(../images/asset\ 56.png) no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-position: 0 0;
+    background-size: 200px 200px;
+    margin: 12.5px 10px;
+}
+
+form {
+    float: left;
+    margin-top: 14px;
+    padding-left: 50px;
+    padding-right: 40px;
+    width: 100%;
+    margin-top: 7px;
+}
+
+.search-icon {
+    background: url(../images/asset\ 56.png) no-repeat;
+    background-position: -80px 0;
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    background-size: 200px 200px;
+    width: 20px;
+    height: 15px;
+}
+
+.topBar input {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    padding: 4px;
+    padding-left: 50px;
+    background: #eee;
+}
+
+.menu-icon {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+.menu-icon span {
+    background: url(../images/asset\ 58.png);
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+}
+/*----------------------------------------顶部通栏*/
+
+/*-----------------------------------------主体内容*/
+.main {
+    width: 100%;
+    height: 100%;
+    padding-top: 46px;
+}
+
+.main-left {
+    width: 90px;
+    height: 100%;
+    float: left;
+}
+
+.main-right {
+    height: 100%;
+    overflow: hidden;
+    background: #fff;
+    padding: 5px;
+}
+
+.main-left ul {
+    width: 100%;
+}
+
+.main-left ul li {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.main-left ul li a {
+    color: #000;
+    display: block;
+}
+
+.main-left ul li.active a {
+    color: red;
+}
+
+.active { 
+    background: #fff;
+}
+
+.ads {
+    width: 100%;
+}
+
+.ads a {
+    display: block;
+    width: 100%;
+}
+
+.ads a img {
+    width: 100%;
+}
+.hot-box {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.hot-box ul {
+    width: 100%;
+}
+
+.hot-box ul li {
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.hot-box ul li img {
+    width: 70px;
+    height: 70px;
+}
+
+.hot-box ul li p {
+    color: #000;
+    font-size: 12px;
+}
+/*-----------------------------------------主体内容*/

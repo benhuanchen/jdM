@@ -1,0 +1,356 @@
+.container {
+    width: 100%;
+    max-width: 540px;
+    min-width: 320px;
+    margin: 0 auto;
+    background: rgb(241, 234, 234);
+}
+
+/*---------------------------------------搜索框双飞翼布局*/
+.search {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.search-box {
+    width: 100%;
+    height: 44px;
+    margin: 0 auto;
+    max-width: 540px;
+    min-width: 320px;
+    /* background:yellow; */
+    position: relative;
+}
+
+.search-box-left-icon {
+    position: absolute;
+}
+
+.search-box-left-icon span {
+    background: url(../images/asset\ 53.png);
+    display: block;
+    width: 20px;
+    height: 18px;
+    background-size: 100% 100%;
+    margin: 14px 0 0 15px;
+}
+
+form {
+    float: left;
+    margin-top: 14px;
+    padding-left: 60px;
+    padding-right: 40px;
+    width: 100%;
+    margin-top: 7px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    padding: 4px;
+    padding-left: 70px;
+}
+.jd-icon {
+    background: url(../images/asset\ 55.png);
+    width: 20px;
+    height: 15px;
+    background-size: 20px 15px;
+    position: absolute;
+    left: 70px;
+    top: 15px;
+    margin-right: 8px;
+}
+
+.jd-icon::after {
+    content: "";
+    position: absolute;
+    border-right: 1px solid #ddd;
+    top: 0;
+    left: 26px;
+    height: 16px;
+}
+
+.search-icon {
+    background: url(../images/asset\ 56.png) no-repeat;
+    background-size: 200px 200px;
+    background-position: -80px 0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+.search-box-right-login {
+    position: absolute;
+    width: 40px;
+    height: 44px;
+    text-align: center;
+    right: 0;
+}
+
+.search-box-right-login span {
+    line-height: 44px;
+    color: #fff;
+}
+/*------------------------------------------------搜索框*/
+
+
+/*------------------------------------------------轮播图*/
+.banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner .image-list {
+    width: 1000%;       /*10张图*/
+    transform: translateX(-10%);
+}
+
+.banner .image-list li {
+    width: 10%;
+    float: left;
+    
+}
+
+.banner .image-list li a {
+    width: 100%;
+    display: block;
+}
+
+.banner .image-list li a img {
+    width: 100%;
+    display: block;
+}
+
+.banner .item {
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    z-index: 20;
+    padding-left: 39%;
+}
+
+.banner .item li {
+    float: left;
+    height: 6px;
+    width: 6px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    margin: 0 4px;
+}
+
+.banner .item .active{
+    background: #fff;
+}
+/*------------------------------------------------轮播图*/
+
+.ad-image {
+    width: 100%;
+    position: relative;
+    z-index: 30;
+    margin-top: -12px;
+}
+
+.ad-image img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+
+/*--------------------------------------------------------导航栏*/
+.nav {
+   width: 100%;
+   padding: 10px 0; 
+   background: #fff;
+   margin-top: -10px;
+}
+
+.nav ul {
+    width: 100%;
+}
+
+.nav ul li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.nav ul li a {
+    color: #555;
+}
+.nav ul li img {
+    width: 40px;
+    height: 40px;
+}
+
+
+/*--------------------------------------------------------导航栏*/
+
+/*--------------------------------------------------------新闻模块*/
+.news {
+    width: 100%;
+    background: #fff;
+}
+
+.news-box {
+    width: 100%;
+    height: 21px;
+    max-width: 540px;
+    min-width: 320px;
+    position: relative;
+}
+.news-left {
+    position: absolute;
+    left: 8px;
+}
+
+.news-medium {
+    float: left;
+    width: 100%;
+    padding-left: 99px;
+    padding-right: 40px;
+}
+.news-right {
+    position: absolute;
+    right: 5px;
+}
+.news img {
+    width: 82px;
+    height: 18px;
+}
+/*--------------------------------------------------------新闻模块*/
+
+.gift {
+    width: 100%;
+    padding-top: 10px;
+    background: #fff;
+}
+
+.gift img {
+    width: 100%;
+    height: 100%;
+}
+
+.gift-one {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.gift-two {
+    float: left;
+    width: 25%;
+}
+
+/*----------------------------------------------秒杀*/
+.second-kill {
+    background: #fff;
+    padding: 0 5px;
+}
+.second-kill h2 {
+    font-size: 24px;
+    color: red;
+    display: inline;
+    font-weight: bold;
+}
+
+.second-kill-time {
+    float: left;
+}
+
+.time {
+    float: right;
+    padding: 5px;
+}
+
+.time-box {
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+.second-kill-more {
+    float: right;
+    margin-right: 5px;
+}
+
+.second-kill-content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.second-kill-content ul {
+    width: 1110px;
+}
+
+.second-kill-content ul li {
+    float: left;
+    text-align: center;
+}
+
+.second-kill-content ul li img {
+    width: 111px;
+    height: 111px;
+}
+
+.second-kill-content .price {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: red; 
+}
+
+.second-kill-content .price-ago {
+    display: block;
+    color: #555;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+/*----------------------------------------------秒杀*/
+
+.hongbao {
+    width: 100%;
+    background: #fff;
+}
+
+.hongbao img {
+    width: 100%;
+}
+
+.dongjiaxiaoyuan {
+    width: 100%;
+}
+
+.dongjiaxiaoyuan img {
+    display: block;
+    width: 188px;
+    height: 34px;
+    margin: 0 auto;
+}
+
+.dongjiaxiaoyuan-content-top {
+    width: 100%;
+}
+
+.dongjiaxiaoyuan-box {
+    float: left;
+    width: 25%;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.dongjiaxiaoyuan-box:last-child {
+    border-right: 0;
+}
+.dongjiaxiaoyuan-box img {
+    width: 100%;
+    height: 100%;
+}
